@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Xeon | OnePage Responsive Theme</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link >
+</head><!--/head-->
+
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+    <header id="header" role="banner">
+        <div class="container">
+            <div id="navbar" class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#main-slider"><i class="icon-home"></i></a></li>
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#pricing">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header><!--/#header-->
+
+    <section id="mainslider" class="carousel">
+    <a href="logout.jsp" ><h3 style="text-align:right">Logout</h3></a>     
+    </section><!--/#main-slider-->
+
+    <section id="services">
+        
+<script type="text/javascript">
+function ValidateForm(frm) {
+if (frm.name.value == "") { alert('First name is required.'); frm.name.focus(); return false; }
+if (frm.Last_Name.value == "") { alert('Last name is required.'); frm.Last_Name.focus(); return false; }
+if (frm.Email_Address.value == "") { alert('Email address is required.'); frm.Email_Address.focus(); return false; }
+if (frm.Email_Address.value.indexOf("@") < 1 || frm.Email_Address.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.Email_Address.focus(); return false; }
+if (frm.Position.value == "") { alert('Position is required.'); frm.Position.focus(); return false; }
+if (frm.Phone.value == "") { alert('Phone is required.'); frm.Phone.focus(); return false; }
+return true; }
+</script>        
+        <form action="template/admin/register.jsp" name="StudentRegistration" method="Post" onSubmit="return(validate()); ">
+
+<table cellpadding="2" width="20%" bgcolor="99FFFF" align="center"
+
+  cellspacing="2">
+
+
+<tr>
+
+  <td colspan=2>
+
+  <center><font size=4><b>Student Registration Form</b></font></center>
+
+  </td>
+
+  </tr>
+
+
+<tr>
+
+  <td>Name</td>
+<label for="name"></label>
+
+  <td><input for="name"  type=text name=name id="textname" size="30"></td>
+
+  </tr>
+
+
+<tr>
+
+  <td>Father Name</td>
+
+  <td><input type="text" name="fname" id="fathername"
+
+  size="30"></td>
+
+  </tr>
+
+  <tr>
+
+  <td>Postal Address</td>
+
+  <td><input type="text" name="poadd" id="paddress" size="30"></td>
+
+  </tr>
+
+
+<tr>
+
+  <td>Personal Address</td>
+
+  <td><input type="text" name="padd"
+
+  id="personaladdress" size="30"></td>
+
+  </tr>
+
+
+<tr>
+
+  <td>Sex</td>
+
+  <td><input type="radio" name="sex" value="male" size="10">Male
+
+  <input type="radio" name="sex" value="Female" size="10">Female</td>
+
+  </tr>
+
+
+<tr>
+
+  <td>City</td>
+
+  <td><select name="city">
+
+  <option value="-1" selected>select..</option>
+
+  <option value="New Delhi">NEW DELHI</option>
+
+  <option value="Mumbai">MUMBAI</option>
+
+  <option value="Goa">GOA</option>
+
+  <option value="Patna">PATNA</option>
+
+  </select></td>
+
+  </tr>
+
+
+<tr>
+
+  <td>Course</td>
+
+  <td><select name="course">
+
+  <option value="-1" selected>select..</option>
+
+  <option value="B.Tech">B.TECH</option>
+
+  <option value="MCA">MCA</option>
+
+  <option value="MBA">MBA</option>
+
+  <option value="BCA">BCA</option>
+
+  </select></td>
+
+  </tr>
+
+
+<tr>
+
+  <td>District</td>
+
+  <td><select name="district">
+
+  <option value="-1" selected>select..</option>
+
+  <option value="Nalanda">NALANDA</option>
+
+  <option value="UP">UP</option>
+
+  <option value="Goa">GOA</option>
+
+  <option value="Patna">PATNA</option>
+
+  </select></td>
+
+
+</tr>
+
+
+<tr>
+
+  <td>State</td>
+
+  <td><select Name="state">
+
+  <option value="-1" selected>select..</option>
+
+  <option value="New Delhi">NEW DELHI</option>
+
+  <option value="Mumbai">MUMBAI</option>
+
+  <option value="Goa">GOA</option>
+
+  <option value="Bihar">BIHAR</option>
+
+  </select></td>
+
+  </tr>
+
+  <tr>
+
+  <td>PinCode</td>
+
+  <td><input type="text" name="pincode" id="pincode" size="30"></td>
+
+
+</tr>
+
+  <tr>
+
+  <td>EmailId</td>
+
+  <td><input type="text" name="email" id="emailid" size="30"></td>
+
+  </tr>
+
+
+<tr>
+
+  <td>DOB</td>
+
+  <td><input type="text" name="dob" id="dob" size="30"></td>
+
+  </tr>
+
+
+<tr>
+
+  <td>MobileNo</td>
+
+  <td><input type="text" name="mnumber" id="mobileno" size="30"></td>
+
+  </tr>
+
+  <tr>
+
+  <td><input type="reset"></td>
+
+  <td colspan="2"><input type="submit" value="Submit Form" /></td>
+
+  </tr>
+
+  </table>
+
+  </form>
+    </section><!--/#services-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
